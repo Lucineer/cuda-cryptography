@@ -1,0 +1,8 @@
+[package]
+name = "cuda-cryptography"
+version = "0.1.0"
+edition = "2021"
+description = "Cryptography primitives — hashing, HMAC, key derivation, signing, verification, and DID-compatible crypto for agents"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
