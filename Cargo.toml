@@ -2,7 +2,12 @@
 name = "cuda-cryptography"
 version = "0.1.0"
 edition = "2021"
-description = "Cryptography primitives — hashing, HMAC, key derivation, signing, verification, and DID-compatible crypto for agents"
+description = "BLAKE3-lite hash, HMAC, HKDF, signing, key rotation"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-cryptography"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
