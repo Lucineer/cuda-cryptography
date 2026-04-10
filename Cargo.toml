@@ -2,7 +2,7 @@
 name = "cuda-cryptography"
 version = "0.1.0"
 edition = "2021"
-description = "BLAKE3-lite hash, HMAC, HKDF, signing, key rotation"
+description = "BLAKE3-lite hash and HMAC signing"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-cryptography"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
